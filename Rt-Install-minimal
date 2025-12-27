@@ -472,7 +472,7 @@ function INSTALL_RTORRENT_APT_R96 {
 	echo "${CYAN}Copying rtorrent.rc${NORMAL}"
 	cp Files/rtorrent.rc $HOMEDIR/.rtorrent.rc
 	CHECKLASTRC
-	chown "$RTORRENT_USER"."$RTORRENT_GROUP" $HOMEDIR/.rtorrent.rc
+	chown "$RTORRENT_USER":"$RTORRENT_GROUP" $HOMEDIR/.rtorrent.rc
 	#sed -i "s/HOMEDIRHERE/$HOMEDIR/g" $HOMEDIR/.rtorrent.rc ###temp disabled, problems with sed.
 }
 function INSTALL_RTORRENT_APT_R97 {
@@ -524,7 +524,7 @@ function INSTALL_RTORRENT_APT_R97 {
 	echo "${CYAN}Copying rtorrent.rc${NORMAL}"
 	cp Files/rtorrent.rc $HOMEDIR/.rtorrent.rc
 	CHECKLASTRC
-	chown "$RTORRENT_USER"."$RTORRENT_GROUP" $HOMEDIR/.rtorrent.rc
+	chown "$RTORRENT_USER":"$RTORRENT_GROUP" $HOMEDIR/.rtorrent.rc
 	#sed -i "s/HOMEDIRHERE/$HOMEDIR/g" $HOMEDIR/.rtorrent.rc ###temp disabled, problems with sed.
 }
 function INSTALL_RTORRENT_APT_R98 {
@@ -576,7 +576,7 @@ function INSTALL_RTORRENT_APT_R98 {
 	echo "${CYAN}Copying rtorrent.rc${NORMAL}"
 	cp Files/rtorrent.rc $HOMEDIR/.rtorrent.rc
 	CHECKLASTRC
-	chown "$RTORRENT_USER"."$RTORRENT_GROUP" $HOMEDIR/.rtorrent.rc
+	chown "$RTORRENT_USER":"$RTORRENT_GROUP" $HOMEDIR/.rtorrent.rc
 	#sed -i "s/HOMEDIRHERE/$HOMEDIR/g" $HOMEDIR/.rtorrent.rc ###temp disabled, problems with sed.
 }
 
